@@ -4,9 +4,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid grey;
 }
 
+.mob-show {
+  display: none;
+}
 /* - - - - - - - - TYPOGRAPHY - - - - - - - - - - - */
 
 body {
@@ -21,4 +23,22 @@ h1 {
 
 span {
   font-family: 'playlist-ornament';
+}
+
+
+
+
+/* - - - - - - - MEDIA QUERIES - - - - - - - - - */
+@media (max-width: 1024px){
+  .mob-hide {
+    display: none;
+  }
+
+  .mob-show {
+    display: block;
+  }
+
+
+
+
 }
