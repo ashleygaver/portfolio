@@ -2,8 +2,9 @@
 
 * {
   margin: 0;
-  padding: 0;
+  padding: 1px;
   box-sizing: border-box;
+  border: 1px solid #eeeeee;
 }
 
 .mob-show {
@@ -21,12 +22,15 @@ h1 {
   font-style: normal;
 }
 
+h2 {
+  font-family: 'playlist';
+  font-weight: normal;
+  font-style: normal;
+}
+
 span {
   font-family: 'playlist-ornament';
 }
-
-
-
 
 /* - - - - - - - MEDIA QUERIES - - - - - - - - - */
 @media (max-width: 1024px){
