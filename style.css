@@ -1,25 +1,58 @@
-/* font-family: 'PT Serif', serif; */
+/*
+font-family: 'PT Serif', serif;
+
+PINK = #ECA4A6;
+GREY FONT = #807F89
+GREY BACKGROUND = #F5F5F5
+*/
 
 * {
   margin: 0;
-  padding: 1px;
+  padding: 0px;
   box-sizing: border-box;
-  border: 1px solid #eeeeee;
 }
+
+/* - - - - - - - - - - UTILITY CLASSES - - - - - - - - */
 
 .mob-show {
   display: none;
 }
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
 /* - - - - - - - - TYPOGRAPHY - - - - - - - - - - - */
 
 body {
   font-family: 'PT Serif', serif;
+  color: #807F89;
+  cursor: default;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: #807F89;
+}
+
+a:hover {
+  color: #ECA4A6;
 }
 
 h1 {
   font-family: 'playlist';
   font-weight: normal;
   font-style: normal;
+  font-size: 5rem;
+  padding: 20px;
 }
 
 h2 {
@@ -31,6 +64,27 @@ h2 {
 span {
   font-family: 'playlist-ornament';
 }
+
+
+/* - - - - - - - - - - HEADER - - - - - - - - - - - */
+.nav {
+  background-color: #F5F5F5;
+  padding: 20px;
+}
+
+.pipe {
+  padding: 7.5px;
+}
+
+.logo-a {
+  display:inline-block;
+  -webkit-transform: matrix(-1, 0, 0, -1, 0, 0);
+  }
+
+.logo-a, .logo-b {
+  color:#ECA4A6;
+}
+
 
 /* - - - - - - - MEDIA QUERIES - - - - - - - - - */
 @media (max-width: 1024px){
