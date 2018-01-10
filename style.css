@@ -45,10 +45,11 @@ body {
   font-size: 1rem;
 }
 
-a, a:visited {
+a {
   text-decoration: none;
   color: #807F89;
 }
+
 
 a:hover {
   color: #ECA4A6;
@@ -58,8 +59,7 @@ h1 {
   font-family: 'playlist';
   font-weight: normal;
   font-style: normal;
-  font-size: 5rem;
-  padding: 20px;
+  font-size: 8rem;
 }
 
 h2 {
@@ -97,6 +97,57 @@ span {
   display:inline-block;
   -webkit-transform: matrix(-1, 0, 0, -1, 0, 0);
   }
+
+/* contact form */
+.form {
+  padding: 2%;
+}
+
+#name {
+  margin-bottom: 2%;
+  margin-right: 2%;
+}
+
+
+input {
+  border: 1px solid #807F89;
+  min-width: 20%;
+  min-height: 7.5%;
+  outline-color: #ECA4A6;
+  font-family: 'PT Serif', serif;
+  font-size: .8rem;
+  padding: 1%;
+}
+
+textarea {
+  border: 1px solid #807F89;
+  resize: none;
+  outline-color: #ECA4A6;
+  min-width: 30%;
+  min-height: 25%;
+  font-family: 'PT Serif', serif;
+  font-size: .8rem;
+  padding: 1%;
+}
+
+.button-form {
+  font-family:'PT Serif', serif;
+  border: 2px solid white;
+  background-color: #ECA4A6;
+  color: white;
+  padding: 1%;
+  font-size: 1.3rem;
+  box-shadow: 3px 3px 5px #807F89;
+  margin-top: 2%;
+}
+
+.button-form:hover {
+  border: 2px solid #ECA4A6;
+  background-color: white;
+  padding: 1%;
+  box-shadow: none;
+  color: #ECA4A6;
+}
 
 
 /* - - - - - - IMAGES/BORDERS - - - - - - - - */
@@ -136,6 +187,10 @@ hr {
 }
 
 /* - - - - - - SPACING/BACKGROUNDS - - - - - - - - - */
+.big-logo {
+  padding: 5%;
+}
+
 .nav {
   background-color: #F5F5F5;
   padding: 20px;
@@ -164,10 +219,8 @@ section.services {
   padding: 2% 5% 5% 5%;
 }
 
-
-/* - - - - - - - - FORM - - - - - - - - - */
-.name {
-  padding: 2%;
+.serv-mob {
+  padding: 5%;
 }
 
 
@@ -202,6 +255,25 @@ section.services {
   background-color: white;
   padding: 5%;
   box-shadow: none;
+}
+
+.button-mobile {
+  border: 2px solid white;
+  background-color: #ECA4A6;
+  color: white;
+  padding: 1%;
+  font-size: 1rem;
+  box-shadow: 3px 3px 5px #807F89;
+  margin: 5%;
+}
+
+.button-mobile:hover {
+  border: 2px solid #ECA4A6;
+  background-color: white;
+  padding: 1%;
+  font-size: 1rem;
+  box-shadow: 3px 3px 5px #807F89;
+  margin: 5%;
 }
 
 /* - - - - - - - MEDIA QUERIES - - - - - - - - - */
