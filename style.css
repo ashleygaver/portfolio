@@ -74,6 +74,10 @@ h3 {
   font-size: 1.5rem;
 }
 
+h4 {
+  font-weight: 400;
+}
+
 span {
   font-family: 'playlist-ornament';
 }
@@ -135,7 +139,7 @@ textarea {
   border: 2px solid white;
   background-color: #ECA4A6;
   color: white;
-  padding: 1%;
+  padding: .5%;
   font-size: 1.3rem;
   box-shadow: 3px 3px 5px #807F89;
   margin-top: 2%;
@@ -144,9 +148,20 @@ textarea {
 .button-form:hover {
   border: 2px solid #ECA4A6;
   background-color: white;
-  padding: 1%;
+  padding: .5%;
   box-shadow: none;
   color: #ECA4A6;
+}
+
+/* footer */
+footer{
+  padding: 1%;
+}
+
+.social {
+  letter-spacing: 5px;
+  margin-top: 1%;
+  font-size: 1.2rem;
 }
 
 
@@ -187,13 +202,19 @@ hr {
 }
 
 /* - - - - - - SPACING/BACKGROUNDS - - - - - - - - - */
-.big-logo {
-  padding: 5%;
-}
-
 .nav {
   background-color: #F5F5F5;
   padding: 20px;
+}
+
+
+.big-logo {
+  padding: 7%;
+}
+
+.about {
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .about-me {
@@ -202,7 +223,7 @@ hr {
 }
 
 section.services {
-  padding: 2% 5%;
+  padding: 2% 5% 10% 5%;
 }
 
 .description p {
@@ -216,7 +237,7 @@ section.services {
 
 .contact {
   background-color:#F5F5F5;
-  padding: 2% 5% 5% 5%;
+  padding: 2%;
 }
 
 .serv-mob {
